@@ -50,6 +50,8 @@ export default class Card {
   }
 
   _addEventListeners(card) {
+    const image = card.querySelector(".place-card__image");
+
     card
       .querySelector(".place-card__like-icon")
       .addEventListener("click", () => this.like());
@@ -61,9 +63,9 @@ export default class Card {
         this.remove();
       });
 
-    card.querySelector(".place-card__image").addEventListener("click", () => {
+    image.addEventListener("click", e => {
       EventAggregator.publish("Card.imageClick", {
-        src: card.style.backgroundImage.slice(5, -2)
+        src: image.style.backgroundImage.slice(5, -2)
       });
     });
   }
