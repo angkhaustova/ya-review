@@ -1,14 +1,14 @@
-import initialCards from "./helpers/initialCards";
-import ProfileFormPopup from "./popups/ProfileFormPopup";
-import BigImagePopup from "./popups/BigImagePopup";
-import ProfileForm from "./forms/ProfileForm";
-import ProfileView from "./views/Profile";
-import EditProfileButton from "./views/EditProfileButton";
-import CardList from "./cards/CardList";
-import { validateLengthStr, validateUrl } from "./helpers/validators";
-import AddCardPopup from "./popups/AddCardPopup";
-import AddCardButton from "./views/AddCardButton";
-import AddCardForm from "./forms/AddCardForm";
+import initialCards from "./helpers/initialCards.mjs";
+import ProfileFormPopup from "./popups/ProfileFormPopup.mjs";
+import BigImagePopup from "./popups/BigImagePopup.mjs";
+import ProfileForm from "./forms/ProfileForm.mjs";
+import ProfileView from "./views/Profile.mjs";
+import EditProfileButton from "./views/EditProfileButton.mjs";
+import CardList from "./cards/CardList.mjs";
+import { validateLengthStr, validateUrl } from "./helpers/validators.mjs";
+import AddCardPopup from "./popups/AddCardPopup.mjs";
+import AddCardButton from "./views/AddCardButton.mjs";
+import AddCardForm from "./forms/AddCardForm.mjs";
 
 {
   /**

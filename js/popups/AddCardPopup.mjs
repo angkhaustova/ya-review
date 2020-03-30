@@ -1,5 +1,5 @@
-import Popup from "./Popup";
-import EventAggregator from "../events/EventAggregator";
+import Popup from "./Popup.mjs";
+import EventAggregator from "../events/EventAggregator.mjs";
 
 export default class AddCardPopup extends Popup {
   constructor() {

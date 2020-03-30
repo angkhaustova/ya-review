@@ -1,6 +1,6 @@
-import Form from "./Form";
-import EventAggregator from "../events/EventAggregator";
-import { validateLengthStr } from "../helpers/validators";
+import Form from "./Form.mjs";
+import EventAggregator from "../events/EventAggregator.mjs";
+import { validateLengthStr } from "../helpers/validators.mjs";
 
 export default class AddCardForm extends Form {
   constructor({ form, inputs, initialValues }) {

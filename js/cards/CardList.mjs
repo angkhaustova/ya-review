@@ -1,5 +1,5 @@
-import Card from "./Card";
-import EventAggregator from "../events/EventAggregator";
+import Card from "./Card.mjs";
+import EventAggregator from "../events/EventAggregator.mjs";
 
 export default class CardList {
   constructor(container, cards) {

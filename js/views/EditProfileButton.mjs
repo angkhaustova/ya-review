@@ -1,4 +1,4 @@
-import EventAggregator from "../events/EventAggregator";
+import EventAggregator from "../events/EventAggregator.mjs";
 
 export default class EditProfileButtonView {
   constructor() {

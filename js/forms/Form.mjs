@@ -1,4 +1,4 @@
-import InputField from "./InputField";
+import InputField from "./InputField.mjs";
 
 export default class Form {
   constructor({ form, inputs }) {
